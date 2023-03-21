@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+.bg { 
+    /* The image used */
+    background-image: url("images/Woman Hands.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.topnav a {
+    float: left;
+    color: #474747;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+  
+.topnav-right {
+    float: right;
+}
+
+.middle{
+    height: 675px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Style the navbar */
+nav {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: #ededed;
+    height: 60px;
+    padding-top: 15px;
+
+  }
+  
+  /* Navbar links */
+nav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    opacity: .6;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom{
+    background-color: rgb(182, 182, 182);
+    height: 500px;
+}
