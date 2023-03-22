@@ -6,7 +6,7 @@ body, html {
   
 .bg { 
     /* The image used */
-    background-image: url("images/Woman Hands.png");
+    background-image: url("images/gospel.jpg");
   
     /* Full height */
     height: 100%; 
@@ -102,3 +102,87 @@ nav a {
     background-color: rgb(182, 182, 182);
     height: 500px;
 }
+
+/* ------------------------------------ */
+/* middle of page */
+
+.middle-top{
+    text-align: center;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+
+}
+
+/* .box{
+    background-color: rgba(115, 180, 255, 0.889);
+} */
+
+.box:nth-child(1){
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 350px;
+    width: 700px;
+    text-align: center;
+    
+    background-color: #6DB3F2;
+    background-image: url(images/color1.jpg);
+    background-position: center;
+    background-size: 700px;
+    background-repeat: no-repeat;
+
+    /* filter: blur(8px); */
+   
+    
+}
+
+.box:nth-child(2){
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  
+
+  background-image: url(images/color2.jpg);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+
+  
+}
+
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.box h1{
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.box button{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    background-color: #0c3794;
+    color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.box button:hover{
+   cursor: pointer;
+   background-color: black;
+}
+
