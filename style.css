@@ -15,7 +15,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 
 .topnav a {
@@ -25,13 +25,12 @@ body, html {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-
 }
-  
+
 .topnav-right {
     float: right;
+    /* padding-left: 10px; */
 }
-
 
 /* Style the navbar */
 nav {
@@ -39,10 +38,9 @@ nav {
     overflow: hidden;
     width: 100%;
     background-color: #ededed;
-    height: 60px;
-    padding-top: 15px;
-    z-index: 2
-
+    z-index: 2;
+    font-size: 14px;
+    /* height: 60px; */
   }
   
   /* Navbar links */
@@ -95,6 +93,37 @@ nav a {
     left: 0;
 }
 
+.border{
+  border-right: 2px solid rgb(223, 223, 223);
+}
+
+.give-blue{
+  background-color: #282292;
+  opacity: 1;
+  color: white;
+  width: 50px;
+}
+
+.topnav-right, .navbar a{
+  height: 50px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.nav-touch:hover{
+  color: #000000;
+  opacity: 1;
+}
+
+.logo:hover{
+  color: #000000;
+  opacity: 1;
+}
+
+.give-blue:hover{
+  background-color: #000000;
+}
+
 
 
 /* ------------------------------------ */
@@ -126,10 +155,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content:center;
-
-
 }
-
 
 .box:nth-child(1){
     margin-right: 20px;
@@ -182,6 +208,7 @@ nav a {
     color: white;
     box-shadow: none;
     border: none;
+    transition: .3s;
 }
 
 .box button:hover{
@@ -191,10 +218,10 @@ nav a {
 
 
 
-
 /* --------------------------- */
 /* BOTTOM */
 /* --------------------------- */
+
 
 .bottom{
   background-color: rgb(248, 248, 248);
@@ -240,10 +267,6 @@ nav a {
   opacity: .6;
   font-size: 12px;
 }
-
-
-
-
 
 
 /* --------------------------- */
