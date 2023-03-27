@@ -37,6 +37,7 @@
 
 .about-text{
     text-align: left;
+    
 }
 
 hr{
@@ -71,6 +72,8 @@ hr{
     padding: 40px;
     margin-bottom: 80px;
     margin: 20px;
+    background-image: url("images/grit.png");
+    
 }
 
 
@@ -166,12 +169,12 @@ h2{
     /* opacity: .7; */
 }
 
-li{
+.ministry-container li{
     padding: 20px;
 }
 
 
-ul{
+.ministry-container ul{
     width: 600px;
     font-size: 30px;
     padding: auto;
