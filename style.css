@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    width: auto;
     margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
   }
@@ -28,6 +29,10 @@ body, html {
 .topnav-right {
     float: right;
 }
+
+/* .hamburger{
+  align-items: center;
+} */
 
 /* Style the navbar */
 nav {
@@ -147,8 +152,9 @@ nav a {
 
 
 .middle{
-  height: 550px;
+  /* height: 550px; */
   background-color: rgb(255, 255, 255);
+  margin-bottom: 100px;
 }
 
 
@@ -209,9 +215,11 @@ nav a {
     color: #ffffff;
 }
 
-.box button{
-    width: 150px;
-    height: 50px;
+.button{
+    /* width: 150px; */
+    /* height: 50px; */
+    padding: 15px;
+    text-decoration: none;
     font-size: 14px;
     background-color: #0c3794;
     color: white;
@@ -220,11 +228,14 @@ nav a {
     transition: .3s;
 }
 
-.box button:hover{
+.button:hover{
    cursor: pointer;
    background-color: black;
 }
 
+i{
+  font-size: 20px;
+}
 
 
 /* --------------------------- */
@@ -234,7 +245,8 @@ nav a {
 
 .bottom{
   background-color: rgb(248, 248, 248);
-  height: 900px;
+  /* height: 900px; */
+  
 }
 
 .bottom{
@@ -242,6 +254,7 @@ nav a {
   flex-direction: row;
   justify-content:center;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bio{
@@ -257,7 +270,7 @@ nav a {
 
 .bio-text{
   width: 400px;
-  height: 800px;
+  /* height: 800px; */
   margin-left: 10px;
   overflow:hidden;
 }
@@ -475,11 +488,52 @@ ul{
   .pic-text p{
     margin-bottom: 100px;
   }
-/* 
+
   .wrapper{
     flex-direction: column;
-  } */
+    overflow: auto;
+    align-items: center;
+    /* margin-bottom: 500px; */
+ 
+  }
+  .box{
+    /* height: 300px; */
+    /* width: 300px; */
+    margin: 30px;
+  }
 
+  .pic-text{
+    text-align: center;
+  }
+
+}
+
+@media(max-width:450px){
+  .box{
+    width: 300px;
+
+  }
+  .navbar{
+    width: 100%;
+    /* margin: 0; */
+    padding-bottom: 30px;
+  }
+  nav {
+    position:relative;
+    /* padding: 30px; */
+    /* padding: 30px; */
+  }
+
+  .bio{
+    background-size: 350px;
+    border: none;
+    /* height: 500px; */
+  }
+  .bio-text{
+    width: 340px;
+    /* overflow: auto; */
+    /* height: 3000px; */
+  }
 }
 
 
@@ -501,8 +555,8 @@ ul{
 
 .gallery img{
   
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   /* min-width: 550px; */
   
