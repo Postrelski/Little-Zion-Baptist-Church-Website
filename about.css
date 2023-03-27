@@ -1,0 +1,181 @@
+.about-container{
+    padding-top: 100px;
+    text-align: center;
+    align-content: center;
+    opacity: .7;
+    width: 400px;
+    margin: auto;
+    font-size: 18px;
+    /* overflow:auto; */
+}
+
+
+.about-text{
+    text-align: left;
+}
+
+hr{
+    width: 400px;
+}
+
+.church-about-pic {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.middle-split{
+    display: flex;
+}
+
+@media(max-width:990px){
+    
+    .middle-split{
+        flex-direction: column;
+       
+    }
+}
+
+.vision, .mission{
+    width: 500px;
+    font-size: 20px;
+    border: 1px solid rgb(229, 233, 255);
+    padding: 40px;
+    margin-bottom: 80px;
+}
+
+/* .vision, .mission{
+    background-color: #3832a1d2;
+    color: white;
+} */
+
+
+
+
+.vision-header{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.vision-mission-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.big-text{
+    font-size: 50px;
+    opacity: .2;
+}
+
+.vission-header{
+    text-align: center;
+}
+
+/* minstry page */
+
+
+.ministry-pic{
+    height: 500px;
+    background-image: url("images/serum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 700px; */
+
+    
+}
+
+.ministry-container{
+    /* height: 100%; */
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 500px; */
+    /* margin:auto; */
+  
+  }
+  
+  .list-ministries{
+    list-style:circle;
+  }
+
+  .ministry-overview{
+    text-align: center;
+
+  }
+
+  
+h2{
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+li{
+    padding: 10px;
+}
+
+
+ol, ul{
+    width: 400px;
+    font-size: 20px;
+}
+
+.line-ministry, hr{
+    margin: 0;
+    text-align: left;
+
+}
+
+.ministry-image1{
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+    background-image: url("images/members2.jpg");
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.minister-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+
+.ministry-image2{
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+    background-image: url("images/members3.jpg");
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.minister-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+.ministry-image3{
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+    background-image: url("images/members.jpg");
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+
+.minister-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
