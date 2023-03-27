@@ -1,6 +1,6 @@
 .middle-split{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -95,9 +95,43 @@ hr{
     text-align: center;
 }
 
+@media(max-width:990px){
+    .vision-mission-container{
+
+        flex-direction: column;
+
+    }
+
+    /* .middle-split{
+        width: 300px;
+    } */
+}
+
+
+@media(max-width:450px){
+
+    .vision-mission-container div{
+        width: 300px;
+    }
+    .middle-split div{
+        width: 300px;
+
+    }
+
+    .ministry-container div{
+        width: 400px;
+    }
+    .ministry-container ul{
+        width: 300px;
+    }
+
+
+}
+
 
 
 /* minstry page */
+/* -------------------------- */
 
 
 .ministry-pic{
@@ -112,39 +146,37 @@ hr{
 }
 
 .ministry-container{
-    /* height: 100%; */
-    background-color: #ffffff;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    /* width: 500px; */
-    /* margin:auto; */
   
+    text-align: center;
+    margin-bottom: 200px;
   }
   
-  .list-ministries{
-    list-style:circle;
-  }
 
   .ministry-overview{
     text-align: center;
-
+    font-size: 30px;
+  }
+  .ministry-overview p{
+    opacity: .6;
   }
 
   
 h2{
     text-transform: uppercase;
-    opacity: .7;
+    /* opacity: .7; */
 }
 
 li{
-    padding: 10px;
+    padding: 20px;
 }
 
 
-ol, ul{
-    width: 400px;
-    font-size: 20px;
+ul{
+    width: 600px;
+    font-size: 30px;
+    padding: auto;
+    margin: auto;
+    opacity: .6;
 }
 
 .line-ministry, hr{
@@ -154,53 +186,43 @@ ol, ul{
 }
 
 .ministry-image1{
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
+    background-size: 800px;
     margin-top: 70px;
     background-image: url("images/members2.jpg");
     background-position: center;
-    background-size: 400px;
+    
     background-repeat: no-repeat;
-}
-
-.minister-container1{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-
+    margin: auto;
 }
 
 
 .ministry-image2{
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
+    background-size: 800px;
     margin-top: 70px;
     background-image: url("images/members3.jpg");
     background-position: center;
-    background-size: 400px;
+    
     background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
 }
 
-.minister-container2{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-
-}
 
 .ministry-image3{
-    height: 400px;
-    width: 400px;
-    margin-top: 70px;
+    height: 800px;
+    width: 800px;
+    background-size: 800px;
     background-image: url("images/members.jpg");
     background-position: center;
-    background-size: 600px;
     background-repeat: no-repeat;
+    margin: auto;
 }
 
-.minister-container3{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
 
+.ministry-container h2{
+    font-size: 50px;
 }
