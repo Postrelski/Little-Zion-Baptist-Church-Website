@@ -599,18 +599,17 @@ ul{
 
 .bg3 { 
   /* background-image: url("images/gospel.jpg"); */
-  height: 100%;
+  /* height: 100%; */
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   place-items: center;
   padding-top: 100px;
-  
+  /* margin: auto; */
 }
 
 /* .contact{
   margin-bottom: 2rem;
 } */
-
 
  form {
   display: flex;
@@ -633,6 +632,7 @@ textarea {
 
 
 button{
+  /* align-items: center; */
   /* width: 270px; */
   height: 80px;
   border: none;
@@ -727,4 +727,13 @@ svg path{
  #map {
   height: 400px; /* The height is 400 pixels */
   width: 50%; /* The width is the width of the web page */
+  margin-top: 30px;
+}
+
+@media (max-width: 990px){
+  .email-phone{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
