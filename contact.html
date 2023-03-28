@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   </head>
   <body>
     <!--------- top page -------->
@@ -23,7 +24,7 @@
         <img src="images/hamburger.png" alt="hambuger icon" />
       </button>
 
-      <a class="logo" href="">Little Zion Baptist Church</a>
+      <a class="logo" href="index.html">LITTLE ZION BAPTIST CHURCH</a>
       <div class="topnav-right links" id="links">
         <a class="nav-touch border" href="index.html">HOME</a>
         <a class="nav-touch border" href="about.html">ABOUT US</a>
@@ -55,18 +56,27 @@
         </button>
       </form>
 
+      <!--  -->
+
+      <div id="map"></div>
+
+      <!-- prettier-ignore -->
+      <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyDpOOT7Mp2Yrl12s7fA7KNF17onwTenx1o", v: "weekly"});</script>
+
+      <!--  -->
+
       <div class="email-phone">
         <div>
           <p>PHONE NUMBER</p>
-          <h1>305-555-5555</h1>
+          <h1>+1(270)369-9143</h1>
         </div>
 
         <div>
           <p>GENERAL INQUIRIES</p>
-          <h1>info@church.com</h1>
-        </div> 
+          <h1>izbcglendale@yahoo.com</h1>
+        </div>
       </div>
-
     </div>
 
     <!-- ------------------------ -->
@@ -77,21 +87,20 @@
       <div class="container">
         <div class="row">
           <div class="footer-col">
-            <h4>Church</h4>
+            <h4>Menu</h4>
             <ul>
-              <li><a href="#">about us </a></li>
-              <li><a href="#">our services</a></li>
-              <li><a href="#">privacy policy</a></li>
-              <li><a href="#">programs</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="ministries.html">Ministries</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>services</h4>
+            <h4>Give</h4>
             <ul>
-              <li><a href="#">times</a></li>
-              <li><a href="#">location</a></li>
-              <li><a href="#">preacher</a></li>
-              <li><a href="#">kids</a></li>
+              <li><a href="https://www.givelify.com/donate/little-zion-baptist-church-glendale-ky-2j7wy5MTUwNDU0OQ==/donation/amount">
+                Donation Link</a></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -104,12 +113,11 @@
             </div>
           </div>
           <div class="footer-col">
-            <h4>Donations</h4>
+            <h4>Where To Find Us</h4>
             <ul>
-              <li><a href="#">paypal</a></li>
-              <li><a href="#">venmo</a></li>
-              <li><a href="#">zelle</a></li>
-              <li><a href="#">cash app</a></li>
+              <li><a href="#">+1 (270) 369-9143</a></li>
+              <li><a href="#">Izbcglendale@yahoo.com</a></li>
+              <li><a href="#">151 New Glendale Rd.P.O. Box 22<br>Glendale,Ky 42740</a></li>
             </ul>
           </div>
         </div>

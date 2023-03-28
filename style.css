@@ -383,6 +383,11 @@ ul{
   background-color: #ffffff;
 }
 
+.footer li {
+  padding: 8px;
+
+}
+
 /* for iphones*/
 @media(max-width:990px){
   .footer-col {
@@ -598,7 +603,7 @@ ul{
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   place-items: center;
-  /* padding-top: 100px; */
+  padding-top: 100px;
   
 }
 
@@ -710,4 +715,16 @@ svg path{
 
 .email-phone div h1{
   font-size: 60px;
+}
+
+/* google map api */
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+ #map {
+  height: 400px; /* The height is 400 pixels */
+  width: 50%; /* The width is the width of the web page */
 }
