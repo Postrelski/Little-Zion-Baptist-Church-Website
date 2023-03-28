@@ -417,6 +417,7 @@ ul{
   color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
+  flex-grow: 1;
 }
 .footer-col ul li a:hover{
   color: #ffffff;
@@ -433,10 +434,12 @@ ul{
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
+  flex-grow: 1;
 }
 .footer-col .social-links a:hover{
   color: #24262b;
   background-color: #ffffff;
+  flex-grow: 1;
 }
 
 /* for iphones*/
