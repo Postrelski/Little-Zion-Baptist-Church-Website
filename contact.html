@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--------- top page -------->
+
+    <nav class="navbar">
+      <button class="hamburger" id="hamburger">
+        <img src="images/hamburger.png" alt="hambuger icon" />
+      </button>
+
+      <a class="logo" href="">Little Zion Baptist Church</a>
+      <div class="topnav-right links" id="links">
+        <a class="nav-touch border" href="index.html">HOME</a>
+        <a class="nav-touch border" href="about.html">ABOUT US</a>
+        <a class="nav-touch border" href="ministries.html">MINISTRIES</a>
+        <a class="nav-touch border" href="gallery.html">GALLERY</a>
+        <a class="nav-touch border" href="contact.html">CONTACT US</a>
+        <a class="give-blue" href="https://giv.li/dac05i">GIVE</a>
+      </div>
+    </nav>
+
+    <div class="bg3">
+      <h1 class="contact">Contact Form</h1>
+      <!-- PUT EMAIL TO RECIEVE EMAIL...   https://formsubmit.co/email-link TO CREATE EMAIL YOU CAN PUT YOUR EMAIL OR PUT THE CODE FROM ACTIVATE-->
+      <form
+        action="https://formsubmit.co/matthewpostrel@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="Name" placeholder="Full Name" required />
+        <input type="text" name="Email" placeholder="Email" required />
+        <textarea name="Message" placeholder="Message" required></textarea>
+        <!-- <button type="submit">Send</button> -->
+        <button id="btn">
+          <p id="btnText">Submit</p>
+          <div class="check-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+              <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+            </svg>
+          </div>
+        </button>
+      </form>
+
+      <div class="email-phone">
+        <div>
+          <p>PHONE NUMBER</p>
+          <h1>305-555-5555</h1>
+        </div>
+
+        <div>
+          <p>GENERAL INQUIRIES</p>
+          <h1>info@church.com</h1>
+        </div> 
+      </div>
+
+    </div>
+
+    <!-- ------------------------ -->
+    <!-- This is the footer section -->
+    <!-- ------------------------ -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Church</h4>
+            <ul>
+              <li><a href="#">about us </a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">programs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>services</h4>
+            <ul>
+              <li><a href="#">times</a></li>
+              <li><a href="#">location</a></li>
+              <li><a href="#">preacher</a></li>
+              <li><a href="#">kids</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Donations</h4>
+            <ul>
+              <li><a href="#">paypal</a></li>
+              <li><a href="#">venmo</a></li>
+              <li><a href="#">zelle</a></li>
+              <li><a href="#">cash app</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
