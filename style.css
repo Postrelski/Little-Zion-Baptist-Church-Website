@@ -28,7 +28,6 @@ body, html {
   top: 0;
   margin-top: 200px;
   text-align: center;
-  /* -webkit-text-stroke: 1px rgb(180, 180, 180); */
   background-color: #95c6d8;
   width: 75%;
   animation: fadeIn 4.5s;
@@ -61,6 +60,7 @@ nav {
     background-color: rgb(248, 248, 248);
     z-index: 2;
     font-size: 18px;
+    
   }
   
   /* Navbar links */
@@ -222,8 +222,6 @@ nav a {
 }
 
 .button{
-    /* width: 150px; */
-    /* height: 50px; */
     padding: 15px;
     text-decoration: none;
     font-size: 14px;
@@ -250,10 +248,7 @@ i{
 
 
 .bottom{
-  /* background-color: rgb(248, 248, 248); */
   background-image: url("images/grit.png");
-  /* -webkit-mask-image: url("images/grit.png"); */
-  
 }
 
 .bottom{
@@ -277,7 +272,6 @@ i{
 
 .bio-text{
   width: 400px;
-  /* height: 800px; */
   margin-left: 10px;
   overflow:hidden;
 }
@@ -309,7 +303,9 @@ footer *{
 }
 
 .container{
-  max-width: 1170px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* max-width: 100%; */
   margin:auto;
 }
 
@@ -350,7 +346,7 @@ ul{
   width: 50px;
 }
 .footer-col ul li:not(:last-child){
-  marging-bottom: 10px;
+  margin-bottom: 10px;
 }
 .footer-col ul li a{
   font-size: 16px;
@@ -384,7 +380,8 @@ ul{
 }
 
 .footer li {
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
 }
 
@@ -424,6 +421,21 @@ ul{
     transition: 0s;
   }
 
+
+
+    
+  .hamburger{
+    float: right;
+    /* margin-right: 40px; */
+    display: block;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+
+  }
+ 
+
+
   .row-content{
       display: flex;
       flex-direction: column;
@@ -444,10 +456,6 @@ ul{
       display: flex;
   }
 
-  .hamburger{
-      display: block;
-      width: 80px;
-  }
 
   .navbar{
     overflow:visible;  
@@ -479,12 +487,6 @@ ul{
     background-color:black;
     color: white;
   }
-  
-  .hamburger{
-    padding: 0;
-    margin: 0;
-    float: right;
-  }
 
   .bottom, .bio-text{
     flex-direction: column;
@@ -505,12 +507,9 @@ ul{
     flex-direction: column;
     overflow: auto;
     align-items: center;
-    /* margin-bottom: 500px; */
- 
   }
+
   .box{
-    /* height: 300px; */
-    /* width: 300px; */
     margin: 30px;
   }
 
@@ -527,24 +526,18 @@ ul{
   }
   .navbar{
     width: 100%;
-    /* margin: 0; */
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
   nav {
     position:relative;
-    /* padding: 30px; */
-    /* padding: 30px; */
   }
 
   .bio{
     background-size: 350px;
     border: none;
-    /* height: 500px; */
   }
   .bio-text{
     width: 340px;
-    /* overflow: auto; */
-    /* height: 3000px; */
   }
 
   .main-quote{
@@ -560,8 +553,6 @@ ul{
   background-color: #ffffff;
   padding-top: 100px;
   overflow: auto;
-  /* min-width: 150px; */
-
 }
 
 
@@ -575,9 +566,6 @@ ul{
   height: 300px;
   width: 300px;
   object-fit: cover;
-  /* min-width: 550px; */
-  
-
 }
 
 .gallery{
@@ -598,18 +586,12 @@ ul{
 
 
 .bg3 { 
-  /* background-image: url("images/gospel.jpg"); */
-  /* height: 100%; */
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   place-items: center;
   padding-top: 100px;
-  /* margin: auto; */
 }
 
-/* .contact{
-  margin-bottom: 2rem;
-} */
 
  form {
   display: flex;
@@ -631,9 +613,7 @@ textarea {
 }
 
 
-button{
-  /* align-items: center; */
-  /* width: 270px; */
+.bg3 button{
   height: 80px;
   border: none;
   outline: none;
@@ -705,7 +685,6 @@ svg path{
 }
 
 .email-phone div p{
-  /* padding: 50px; */
   color: rgb(196, 3, 3);
   text-decoration: underline;
   font-size: 20px;
