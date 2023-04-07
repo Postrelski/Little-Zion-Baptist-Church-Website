@@ -157,12 +157,10 @@ nav a {
 
 
 .middle{
-  /* height: 550px; */
   background-color: rgb(255, 255, 255);
   margin-bottom: 100px;
 
 }
-
 
 .middle-top{
     text-align: center;
@@ -195,7 +193,6 @@ nav a {
 }
 
 .box:nth-child(1){
-    background-color: #6DB3F2;
     background-image: url(images/color1.jpg);
     background-position: center;
     background-size: 700px;
@@ -242,6 +239,22 @@ i{
 }
 
 
+
+@media(max-width:540px){
+
+  .box h1{
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .box:nth-child(1), .box:nth-child(2){
+    background-size: 250px;
+  }
+
+}
+
+
+
 /* --------------------------- */
 /* BOTTOM */
 /* --------------------------- */
@@ -256,13 +269,13 @@ i{
   flex-direction: row;
   justify-content:center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+ 
 }
 
 .bio{
   width: 600px;
   height: 500px;
-  margin-right: 10px;
   background-image: url(images/portrait.png);
   background-position: center;
   background-size: 600px;
@@ -273,7 +286,8 @@ i{
 .bio-text{
   width: 400px;
   margin-left: 10px;
-  overflow:hidden;
+  overflow:visible;
+
 }
 
 .bio-text p{
@@ -288,6 +302,61 @@ i{
   opacity: .6;
   font-size: 12px;
 }
+
+@media(max-width:1280px){
+
+  .main-quote{
+    font-size: 40px;
+  }
+}
+
+@media(max-width:540px){
+
+  .bio{
+    width: 300px;
+    height: 300px;
+    /* background-size: 300px; */
+  }
+
+  .box{
+    width: 300px;
+
+  }
+
+  .navbar{
+    width: 100%;
+  }
+
+  nav {
+    position:fixed;
+  }
+
+  .bio{
+    background-size: 350px;
+    border: none;
+  }
+
+  .bio-text{
+    width: 250px;
+
+  }
+
+  .main-quote{
+    font-size: 30px;
+  }
+
+}
+
+@media(max-width:300px){
+  
+  .bio{
+    background-size: 200px;
+    width: 200px;
+
+  }
+
+}
+
 
 
 /* --------------------------- */
@@ -305,7 +374,6 @@ footer *{
 .container{
   padding-left: 50px;
   padding-right: 50px;
-  /* max-width: 100%; */
   margin:auto;
 }
 
@@ -321,6 +389,8 @@ ul{
 .footer{
   background-color: #24262b;
   padding: 70px 0;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 .footer-col{
   width: 25%;
@@ -351,7 +421,6 @@ ul{
 .footer-col ul li a{
   font-size: 16px;
   text-transform: capitalize;
-  color: #ffffff;
   text-decoration: none;
   font-weight: 300;
   color: #bbbbbb;
@@ -383,6 +452,7 @@ ul{
   padding-top: 8px;
   padding-bottom: 8px;
 
+
 }
 
 /* for iphones*/
@@ -396,10 +466,12 @@ ul{
     flex-direction: column;
     align-items: center;
   }
+
+  .footer-col ul li a{
+    font-size: 14px;
+  }
   
 }
-
-
 
 
 /* --------------------------- */
@@ -421,20 +493,15 @@ ul{
     transition: 0s;
   }
 
-
-
     
   .hamburger{
     float: right;
-    /* margin-right: 40px; */
     display: block;
     width: 80px;
     margin: 0;
     padding: 0;
 
   }
- 
-
 
   .row-content{
       display: flex;
@@ -510,7 +577,7 @@ ul{
   }
 
   .box{
-    margin: 30px;
+    margin-top: 10px;
   }
 
   .pic-text{
@@ -519,40 +586,19 @@ ul{
 
 }
 
-@media(max-width:450px){
-  .box{
-    width: 300px;
 
-  }
-  .navbar{
-    width: 100%;
-    padding-bottom: 40px;
-  }
-  nav {
-    position:relative;
-  }
-
-  .bio{
-    background-size: 350px;
-    border: none;
-  }
-  .bio-text{
-    width: 340px;
-  }
-
-  .main-quote{
-    visibility: hidden;
-  }
-
-}
-
-
+/* ---------------------- */
 /* GALLERY */
+/* ---------------------- */
+
 .gallery-container{
-  height: 100%;
   background-color: #ffffff;
   padding-top: 100px;
-  overflow: auto;
+  /* height: 100%; */
+}
+
+.gallery-filler{
+  height: 100%;
 }
 
 
@@ -569,7 +615,8 @@ ul{
 }
 
 .gallery{
-  margin: 10px 50px;
+  margin: 10px ;
+  /* margin: auto; */
 }
 
 .gallery img{
@@ -580,6 +627,23 @@ ul{
 .gallery img:hover{
   /* filter: grayscale(100%); */
   transform: scale(1.1);
+}
+
+@media (max-width: 912px){
+
+  .gallery-container{
+    text-align: center;
+  }
+  
+  
+}
+
+@media (max-width: 280px){
+
+  .gallery img{
+    height: 200px;
+    width: 200px;
+  }
 }
 
 /* ----------FORM----------- */
@@ -593,7 +657,7 @@ ul{
 }
 
 
- form {
+form {
   display: flex;
   flex-direction: column;
   width: 24rem;
@@ -696,6 +760,30 @@ svg path{
   font-size: 60px;
 }
 
+@media (max-width: 1280px){
+  .email-phone div h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 990px){
+
+  form {
+    width: 200px;
+   }
+
+   .email-phone div{
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+   .email-phone div h1{
+    font-size: 18px;
+  }
+
+}
+
 /* google map api */
 
 /* 
@@ -710,9 +798,15 @@ svg path{
 }
 
 @media (max-width: 990px){
-  .email-phone{
+  .email-phone {
     display: flex;
     flex-direction: column;
+    width: 200px;
+  }
+
+  #map{
+    height: 350px;
+    width: 60%;
   }
 
 }
