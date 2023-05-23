@@ -1,3 +1,4 @@
+// hamburger javascript
 const hamburger = document.getElementById('hamburger');
 const links = document.getElementById('links');
 
@@ -6,8 +7,7 @@ hamburger.addEventListener('click', () => {
 })
 
 
-
-
+// submit form
 const btn = document.querySelector("#btn");
 const btnText = document.querySelector("#btnText");
 
@@ -18,9 +18,7 @@ btn.onclick = () => {
 
 
 // -------- google map api ------ // 
-
-
-
+// api key -- AIzaSyDpOOT7Mp2Yrl12s7fA7KNF17onwTenx1o
 // Initialize and add the map
 let map;
 
@@ -40,16 +38,15 @@ async function initMap() {
   });
 
   // The marker, positioned at Uluru
-  const marker = new AdvancedMarkerView({
-    map: map,
-    position: position,
-    title: "Uluru",
-  });
+  // const marker = new AdvancedMarkerView({
+  //   map: map,
+  //   position: position,
+  //   title: "Uluru",
+  // });
   
 }
-
 initMap();
-index.js
 
 
-// api key -- AIzaSyDpOOT7Mp2Yrl12s7fA7KNF17onwTenx1o
+// add the counter javascript here ----->
+
