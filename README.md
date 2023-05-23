@@ -1,6 +1,6 @@
 # Website-Church OFFICAL
 
-Developed and deployed official website for Little Zion Baptist Church. Created with vanila HTML, CSS, & Javascript.
+Developed official website for Little Zion Baptist Church. Created with HTML, CSS, & Javascript.
 
 http://littlezionbaptist.church/index.html
 
